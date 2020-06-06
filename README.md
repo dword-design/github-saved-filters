@@ -1,9 +1,9 @@
 <!-- TITLE/ -->
-# undefined
+# @dword-design/github-saved-filters
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/undefined.svg)](https://npmjs.org/package/undefined)
+[![NPM version](https://img.shields.io/npm/v/@dword-design/github-saved-filters.svg)](https://npmjs.org/package/@dword-design/github-saved-filters)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/github-saved-filters/build)](https://github.com/dword-design/github-saved-filters/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/github-saved-filters)](https://coveralls.io/github/dword-design/github-saved-filters)
@@ -22,10 +22,10 @@
 
 ```bash
 # NPM
-$ npm install undefined
+$ npm install @dword-design/github-saved-filters
 
 # Yarn
-$ yarn add undefined
+$ yarn add @dword-design/github-saved-filters
 ```
 <!-- /INSTALL -->
 
