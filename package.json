@@ -1,0 +1,27 @@
+{
+  "name": "@dword-design/github-saved-filters",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "dword-design/github-saved-filters",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "commit": "base commit",
+    "dev": "base dev",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^6.15.1",
+    "@dword-design/base-config-web-extension": "^1.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "baseConfig": "web-extension"
+}
