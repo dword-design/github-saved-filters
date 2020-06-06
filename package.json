@@ -16,6 +16,9 @@
     "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
+  "dependencies": {
+    "@dword-design/functions": "^1.1.2"
+  },
   "devDependencies": {
     "@dword-design/base": "^6.15.1",
     "@dword-design/base-config-web-extension": "^1.6.3"
@@ -23,5 +26,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "baseConfig": "web-extension"
+  "baseConfig": {
+    "name": "web-extension",
+    "startUrl": "https://github.com/issues"
+  }
 }
