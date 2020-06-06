@@ -3,7 +3,9 @@
   "matches": [
     "https://github.com/*"
   ],
-  "permissions": ["storage"],
+  "permissions": [
+    "storage"
+  ],
   "browser_specific_settings": {
     "gecko": {
       "id": "{071e944b-8d1c-4b48-8bba-4c2519deee01}"
