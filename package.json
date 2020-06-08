@@ -30,6 +30,7 @@
   },
   "baseConfig": {
     "name": "web-extension",
-    "startUrl": "https://github.com/issues"
+    "startUrl": "https://github.com/issues",
+    "chromeExtensionId": "olkmmlhdbdmibnebknmghijmdijadhpf"
   }
 }
