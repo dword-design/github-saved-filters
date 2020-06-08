@@ -14,7 +14,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Allows to save issue and pull request filters on GitHub and access them via the main menu.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
