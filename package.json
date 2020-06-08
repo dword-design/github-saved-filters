@@ -1,7 +1,7 @@
 {
   "name": "@dword-design/github-saved-filters",
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows to save issue and pull request filters on GitHub and access them via the main menu.",
   "repository": "dword-design/github-saved-filters",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
