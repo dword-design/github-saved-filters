@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/github-saved-filters/compare/v1.0.0...v1.0.1) (2020-06-08)
+
+
+### Bug Fixes
+
+* show header nav on all pages ([caa676d](https://github.com/dword-design/github-saved-filters/commit/caa676d36036268b5b6cbdb0284cbf785a8eb4cb))
+
 # 1.0.0 (2020-06-08)
 
 
