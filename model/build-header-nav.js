@@ -1,7 +1,7 @@
 import { endent, map, join } from '@dword-design/functions'
 import { SLUG } from './variables.config'
 
-export default async options => {
+export default options => {
   if (options.savedFilters.length === 0) {
     return
   }

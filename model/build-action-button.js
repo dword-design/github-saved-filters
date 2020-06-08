@@ -3,7 +3,7 @@ import getSaveDialog from './get-save-dialog'
 import getDeleteDialog from './get-delete-dialog'
 import { SLUG } from './variables.config'
 
-export default async options => {
+export default options => {
   const build = () => {
     const $subnav = document.querySelector('.subnav')
     const $query = document.querySelector('.subnav-search-input')
