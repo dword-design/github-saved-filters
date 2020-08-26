@@ -1,4 +1,5 @@
-import { endent, map, join } from '@dword-design/functions'
+import { endent, join, map } from '@dword-design/functions'
+
 import { SLUG } from './variables.config'
 
 export default options => {

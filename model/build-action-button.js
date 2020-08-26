@@ -1,6 +1,7 @@
-import { find, endent } from '@dword-design/functions'
-import getSaveDialog from './get-save-dialog'
+import { endent, find } from '@dword-design/functions'
+
 import getDeleteDialog from './get-delete-dialog'
+import getSaveDialog from './get-save-dialog'
 import { SLUG } from './variables.config'
 
 export default options => {
@@ -8,7 +9,6 @@ export default options => {
     const $subnav = document.querySelector('.subnav')
     const $query = document.querySelector('.subnav-search-input')
     const filter = options.savedFilters |> find({ query: $query.value })
-
     let $details = document.querySelector(`.${SLUG}-details`)
     if ($details) {
       $details.remove()
@@ -24,7 +24,6 @@ export default options => {
       'mt-md-0'
     )
     $subnav.append($details)
-
     const $summary = document.createElement('summary')
     $summary.innerHTML = filter
       ? endent`
@@ -43,15 +42,12 @@ export default options => {
     )
     $summary.setAttribute('aria-haspopup', 'dialog')
     $details.append($summary)
-
     $details.append(
       filter ? getDeleteDialog(filter, options) : getSaveDialog(options)
     )
     $query.oninput = build
   }
-
   const observer = new MutationObserver(build)
   observer.observe(document.body, { childList: true })
-
   build()
 }

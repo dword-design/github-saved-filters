@@ -1,5 +1,5 @@
-import importFresh from 'import-fresh'
 import { mapValues } from '@dword-design/functions'
+import importFresh from 'import-fresh'
 
 const runTest = options => () => {
   global.window = options.window
@@ -7,15 +7,16 @@ const runTest = options => () => {
   expect(subject).toEqual(options.result)
   delete global.window
 }
+
 export default {
   ...({
     issues: { location: { pathname: '/issues' } },
     'issues assigned': { location: { pathname: '/issues/assigned' } },
     pulls: { location: { pathname: '/pulls' } },
     'pulls assigned': { location: { pathname: '/pulls/assigned' } },
-  } |> mapValues(window => runTest({ window, result: true }))),
+  } |> mapValues(window => runTest({ result: true, window }))),
   ...({
-    'non-applicable': { location: { pathname: '/foo' } },
     issuesfoo: { location: { pathname: '/issuesfoo' } },
-  } |> mapValues(window => runTest({ window, result: false }))),
+    'non-applicable': { location: { pathname: '/foo' } },
+  } |> mapValues(window => runTest({ result: false, window }))),
 }
