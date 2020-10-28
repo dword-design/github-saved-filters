@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/github-saved-filters/compare/v1.0.3...v1.0.4) (2020-10-28)
+
+
+### Bug Fixes
+
+* **config:** Update changed files ([725c4e7](https://github.com/dword-design/github-saved-filters/commit/725c4e71efa1283f5ebf529bc42d2de4ac9a2356))
+
 ## [1.0.3](https://github.com/dword-design/github-saved-filters/compare/v1.0.2...v1.0.3) (2020-08-26)
 
 
