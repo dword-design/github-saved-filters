@@ -1,4 +1,4 @@
-import { endent, join, map } from '@dword-design/functions'
+import { endent, join, map, sortBy } from '@dword-design/functions'
 
 import { SLUG } from './variables.config'
 
@@ -25,6 +25,7 @@ export default options => {
     <details-menu class="dropdown-menu dropdown-menu-se" role="menu">
       ${
         options.savedFilters
+        |> sortBy('name')
         |> map(
           filter =>
             `<a role="menuitem" class="dropdown-item" href="/issues?q=${encodeURIComponent(
