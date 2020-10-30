@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/dword-design/github-saved-filters/compare/v1.0.4...v1.1.0) (2020-10-30)
+
+
+### Bug Fixes
+
+* fix menu placement ([9d3a34f](https://github.com/dword-design/github-saved-filters/commit/9d3a34fca28a16a19b422821f7dcf200414d0eb4))
+* upgrades ([77ea9f1](https://github.com/dword-design/github-saved-filters/commit/77ea9f14da3ee111ff915bd82adecefb5bc28bda))
+
+
+### Features
+
+* sort filters ([27e82f6](https://github.com/dword-design/github-saved-filters/commit/27e82f6ee2202dc88b990b2f218fde1049c0fc26))
+
 ## [1.0.4](https://github.com/dword-design/github-saved-filters/compare/v1.0.3...v1.0.4) (2020-10-28)
 
 
