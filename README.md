@@ -36,14 +36,29 @@ Allows to save issue and pull request filters on GitHub and access them via the 
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
+## Recommended setup
+* Node.js 12.16.0
+* Yarn 1.21.1
+
 ## Install
-
 ```bash
-# NPM
-$ npm install @dword-design/github-saved-filters
+$ yarn --frozen-lockfile
+```
 
-# Yarn
-$ yarn add @dword-design/github-saved-filters
+## Running a development server
+```bash
+$ yarn dev [target]
+```
+Available targets are `firefox` and `chrome`. Default is `firefox`.
+
+## Building the extension for upload
+```bash
+$ yarn prepublishOnly
+```
+
+## Archiving the source for upload
+```bash
+$ yarn source
 ```
 <!-- /INSTALL -->
 
