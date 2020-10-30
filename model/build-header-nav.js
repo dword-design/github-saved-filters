@@ -19,10 +19,10 @@ export default options => {
     'details-reset'
   )
   $savedFilters.innerHTML = endent`
-    <summary class="Header-link py-2 py-lg-3 mr-0 mr-lg-3" aria-haspopup="menu" role="button">
+    <summary class="Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15" aria-haspopup="menu" role="button">
       Saved filters <span class="dropdown-caret"></span>
     </summary>
-    <details-menu class="dropdown-menu dropdown-menu-se mt-n2" role="menu">
+    <details-menu class="dropdown-menu dropdown-menu-se" role="menu">
       ${
         options.savedFilters
         |> map(
