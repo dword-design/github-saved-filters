@@ -3,6 +3,15 @@
 
 ### Bug Fixes
 
+* restore icon ([6cf7cc0](https://github.com/dword-design/github-saved-filters/commit/6cf7cc0c2dd3a9a4a34fcec37768a77923f89164))
+* temporarily remove icon ([94441b2](https://github.com/dword-design/github-saved-filters/commit/94441b2b470f751fc6f64463918b37cdfe943b33))
+* upgrades ([f4c5d84](https://github.com/dword-design/github-saved-filters/commit/f4c5d84e897135bc52d5f219a117bf4d933dd0a5))
+
+## [1.1.1](https://github.com/dword-design/github-saved-filters/compare/v1.1.0...v1.1.1) (2021-02-17)
+
+
+### Bug Fixes
+
 * upgrades ([f4c5d84](https://github.com/dword-design/github-saved-filters/commit/f4c5d84e897135bc52d5f219a117bf4d933dd0a5))
 
 # [1.1.0](https://github.com/dword-design/github-saved-filters/compare/v1.0.4...v1.1.0) (2020-10-30)
