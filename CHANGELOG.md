@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/dword-design/github-saved-filters/compare/v1.1.2...v1.1.3) (2021-03-11)
+
+
+### Bug Fixes
+
+* update changed files ([f7f3461](https://github.com/dword-design/github-saved-filters/commit/f7f34611da7a62ed99360061047efa84abcf34d3))
+* update name ([a4f70a6](https://github.com/dword-design/github-saved-filters/commit/a4f70a668731f8169c9bbf53ba7ed9f431934e14))
+
 ## [1.1.2](https://github.com/dword-design/github-saved-filters/compare/v1.1.1...v1.1.2) (2021-03-09)
 
 
