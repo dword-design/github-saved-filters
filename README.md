@@ -1,5 +1,5 @@
 <!-- TITLE/ -->
-# @dword-design/github-saved-filters
+# github-saved-filters
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
