@@ -7,7 +7,9 @@ import { SLUG } from './variables.config'
 export default options => {
   const build = () => {
     const $subnav = document.querySelector('.subnav')
+
     const $query = document.querySelector('.subnav-search-input')
+
     const filter = options.savedFilters |> find({ query: $query.value })
     let $details = document.querySelector(`.${SLUG}-details`)
     if ($details) {
@@ -24,6 +26,7 @@ export default options => {
       'mt-md-0'
     )
     $subnav.append($details)
+
     const $summary = document.createElement('summary')
     $summary.innerHTML = filter
       ? endent`
@@ -47,6 +50,7 @@ export default options => {
     )
     $query.oninput = build
   }
+
   const observer = new MutationObserver(build)
   observer.observe(document.body, { childList: true })
   build()

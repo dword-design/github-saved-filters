@@ -6,6 +6,7 @@ export default options => {
   if (options.savedFilters.length === 0) {
     return
   }
+
   const $headerNav = document.querySelector('.Header nav')
   let $savedFilters = $headerNav.querySelector(`.${SLUG}-header-nav`)
   if ($savedFilters) {

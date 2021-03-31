@@ -3,6 +3,7 @@ import importFresh from 'import-fresh'
 
 const runTest = options => () => {
   global.window = options.window
+
   const subject = importFresh('./is-applicable')
   expect(subject).toEqual(options.result)
   delete global.window
