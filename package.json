@@ -32,7 +32,7 @@
   },
   "baseConfig": {
     "name": "@dword-design/web-extension",
-    "startUrl": "https://github.com/issues",
+    "startUrl": "https://github.com",
     "chromeExtensionId": "olkmmlhdbdmibnebknmghijmdijadhpf"
   }
 }
