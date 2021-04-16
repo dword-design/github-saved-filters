@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/dword-design/github-saved-filters/compare/v1.1.8...v1.1.9) (2021-04-16)
+
+
+### Bug Fixes
+
+* fix default url ([93e7bbd](https://github.com/dword-design/github-saved-filters/commit/93e7bbd544f60256afacaba4b83f677cdc1f64ad))
+
 ## [1.1.8](https://github.com/dword-design/github-saved-filters/compare/v1.1.7...v1.1.8) (2021-04-12)
 
 
