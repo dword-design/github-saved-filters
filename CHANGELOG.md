@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/dword-design/github-saved-filters/compare/v1.1.10...v1.1.11) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#30](https://github.com/dword-design/github-saved-filters/issues/30)) ([12c44be](https://github.com/dword-design/github-saved-filters/commit/12c44be54a3ac55f5a1e75d3d21da9f4a2590631))
+
 ## [1.1.10](https://github.com/dword-design/github-saved-filters/compare/v1.1.9...v1.1.10) (2021-05-03)
 
 
