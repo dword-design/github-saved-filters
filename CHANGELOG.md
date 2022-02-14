@@ -1,3 +1,21 @@
+## [1.1.24](https://github.com/dword-design/github-saved-filters/compare/v1.1.23...v1.1.24) (2022-02-14)
+
+
+### Bug Fixes
+
+* lock file maintenance ([92fbe12](https://github.com/dword-design/github-saved-filters/commit/92fbe12f257c118f7df03fd6e530152080e831af))
+* lock file maintenance ([a2cf550](https://github.com/dword-design/github-saved-filters/commit/a2cf550800775ed6f422557f0149cff8b5794ef2))
+* lock file maintenance ([f491706](https://github.com/dword-design/github-saved-filters/commit/f491706977a455f6bc4d0e0b008f206bd40317e7))
+* lock file maintenance ([d32148c](https://github.com/dword-design/github-saved-filters/commit/d32148c4011321d671442a2a712061fcbff219eb))
+* lock file maintenance ([f84f598](https://github.com/dword-design/github-saved-filters/commit/f84f59869c90a32c92e6a7e5748758336b9623f9))
+* lock file maintenance ([3e5928b](https://github.com/dword-design/github-saved-filters/commit/3e5928b3fbb133123351948992ce4fae3d85893e))
+* lock file maintenance ([549c089](https://github.com/dword-design/github-saved-filters/commit/549c089bad30a3641a4b54c272c99e62d79e2ff9))
+* lock file maintenance ([27afbb0](https://github.com/dword-design/github-saved-filters/commit/27afbb0a87adc6d44c6937f276568232998f1701))
+* lock file maintenance ([f550dfd](https://github.com/dword-design/github-saved-filters/commit/f550dfd90a8207c9b5a976d91c412aa18c828002))
+* lock file maintenance ([0073544](https://github.com/dword-design/github-saved-filters/commit/007354435066dea87d085ed200ebf0b5c9b34277))
+* lock file maintenance ([#65](https://github.com/dword-design/github-saved-filters/issues/65)) ([803a7cf](https://github.com/dword-design/github-saved-filters/commit/803a7cf5b32993ab81ad0d34c281196a6d640c6c))
+* update config files ([e9802f1](https://github.com/dword-design/github-saved-filters/commit/e9802f11ea986b5e683ba44a4b3b4b5535781f0d))
+
 ## [1.1.23](https://github.com/dword-design/github-saved-filters/compare/v1.1.22...v1.1.23) (2021-11-29)
 
 
