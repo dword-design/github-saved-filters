@@ -1,3 +1,10 @@
+## [1.1.33](https://github.com/dword-design/github-saved-filters/compare/v1.1.32...v1.1.33) (2022-03-28)
+
+
+### Bug Fixes
+
+* lock file maintenance ([3431d02](https://github.com/dword-design/github-saved-filters/commit/3431d028bbe695152695378be177e76638ec8fe6))
+
 ## [1.1.32](https://github.com/dword-design/github-saved-filters/compare/v1.1.31...v1.1.32) (2022-03-28)
 
 
