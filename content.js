@@ -1,8 +1,8 @@
 import { property } from '@dword-design/functions'
 
-import buildActionButton from './model/build-action-button'
-import buildHeaderNav from './model/build-header-nav'
-import isApplicable from './model/is-applicable'
+import buildActionButton from './model/build-action-button.js'
+import buildHeaderNav from './model/build-header-nav.js'
+import isApplicable from './model/is-applicable.js'
 
 const run = async () => {
   const savedFilters =
