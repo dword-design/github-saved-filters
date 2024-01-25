@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@dword-design/base": "^8.0.0",
-    "@dword-design/base-config-web-extension": "^1.6.3",
+    "@dword-design/base-config-web-extension": "^2.0.0",
     "import-fresh": "^3.2.1"
   },
   "engines": {
