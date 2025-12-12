@@ -11,6 +11,7 @@
     "dist"
   ],
   "scripts": {
+    "build": "base build",
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "depcheck": "base depcheck",
@@ -18,19 +19,26 @@
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "source": "base source",
-    "test": "base test"
+    "test": "base test",
+    "typecheck": "base typecheck",
+    "verify": "base verify"
   },
   "dependencies": {
-    "@dword-design/functions": "^4.0.0"
+    "@wxt-dev/auto-icons": "^1.1.0",
+    "endent": "npm:@dword-design/endent@^1.4.7",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@dword-design/base": "^9.2.0",
-    "@dword-design/base-config-web-extension": "^1.6.3",
-    "import-fresh": "^3.2.1"
+    "@dword-design/base": "^16",
+    "@dword-design/base-config-web-extension": "^5.1.0",
+    "@types/lodash-es": "^4.17.12"
   },
+  "peerDependencies": {
+    "@dword-design/wxt-fork": "*"
+  },
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
   "engines": {
-    "node": ">=14"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"
